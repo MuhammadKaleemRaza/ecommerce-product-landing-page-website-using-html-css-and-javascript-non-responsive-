@@ -1,0 +1,31 @@
+@media screen and (max-width: 880px) {
+    .nav-list > .nav-item {
+        padding: 20px 10px;
+        margin-right: -7px;
+    }
+
+    .profile-container img {
+        margin-right: -80px;
+    }
+
+    .cart-container {
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .profile-container img {
+        margin-left: 27px;
+    }
+
+    .cart-container {
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+   .nav-list {
+       flex-direction: column;
+       position: absolute;
+   }
+}
